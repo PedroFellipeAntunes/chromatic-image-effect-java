@@ -1,0 +1,15 @@
+Chromatic/Lighten.class
+FileManager/PngReader.class
+FileManager/Grayscale.class
+Util/Main.class
+Chromatic/TYPE.class
+Chromatic/ChromaticAberration.class
+Chromatic/Operations$1.class
+ImageData/Pixel.class
+Windows/DropDownWindow.class
+Windows/ImageViewer$ImagePanel.class
+Windows/DropDownWindow$1.class
+Windows/ImageViewer.class
+Chromatic/Operations.class
+FileManager/PngSaver.class
+FileManager/PngConverter.class
