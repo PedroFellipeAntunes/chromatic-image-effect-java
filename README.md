@@ -1,6 +1,6 @@
 # Chromatic Aberration Image Effect
 
-This project is a Java application built using NetBeans IDE and Swing that applies the **chromatic aberration** effect to images. Users can select multiple image files, adjust parameters like angle and offset, and choose various effects such as grayscale, blending modes, and the type of chromatic aberration (simple or interpolated).
+This project is a Java Maven application built using NetBeans IDE and Swing that applies the **chromatic aberration** effect to images. Users can select multiple image files, adjust parameters like angle and offset, and choose various effects such as grayscale, blending modes, and the type of chromatic aberration (simple or interpolated).
 
 ## Features
 
@@ -25,16 +25,17 @@ This project is a Java application built using NetBeans IDE and Swing that appli
 ## Implementation Details
 
 - The core image manipulation is handled using a data structure of `ArrayList<ArrayList<Pixel>>` to represent and modify image pixel data.
+- Pixel is an object which contains separte `interger` values for **RGBA**.
 - Each image is processed sequentially based on user input and settings, and a preview is shown after every operation.
 - The final window provides an option to save the modified image or discard it.
 
 ## How to Use
 
 1. **Start the Application**: Run the Java application in NetBeans.
-2. **Select Images**: Use the dropdown menu to load multiple image files (`.png`, `.jpg`, or `.jpeg`).
-3. **Adjust Parameters**:
+2. **Adjust Parameters**:
    - Use the **Angle** and **Offset** sliders to control the chromatic aberration effect.
    - Click the **Grayscale** button to convert the image to grayscale using BT.709.
    - Use the **Blend** button to enable/disable blending via the **Lighten** mode.
    - Toggle between **Simple** and **Interpolated** chromatic aberration using the respective buttons.
+3. **Select Images**: Use the dropdown menu to load multiple image files (`.png`, `.jpg`, or `.jpeg`).
 4. **Preview & Save**: After applying the effect, preview the edited image. You will be prompted to save the modified image as a PNG file with the new name.
