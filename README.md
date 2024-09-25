@@ -25,7 +25,7 @@ This project is a Java Maven application built using NetBeans IDE and Swing that
 ## Implementation Details
 
 - The core image manipulation is handled using a data structure of `ArrayList<ArrayList<Pixel>>` to represent and modify image pixel data.
-- Pixel is an object which contains separte `interger` values for **RGBA**.
+- `Pixel` is an object which contains separate `interger` values for **RGBA**.
 - Each image is processed sequentially based on user input and settings, and a preview is shown after every operation.
 - The final window provides an option to save the modified image or discard it.
 
@@ -38,4 +38,4 @@ This project is a Java Maven application built using NetBeans IDE and Swing that
    - Use the **Blend** button to enable/disable blending via the **Lighten** mode.
    - Toggle between **Simple** and **Interpolated** chromatic aberration using the respective buttons.
 3. **Select Images**: Use the dropdown menu to load multiple image files (`.png`, `.jpg`, or `.jpeg`).
-4. **Preview & Save**: After applying the effect, preview the edited image. You will be prompted to save the modified image as a PNG file with the new name.
+4. **Preview & Save**: After applying the effect, preview each edited image. You will be prompted to save the modified image as a PNG file with the new name.
