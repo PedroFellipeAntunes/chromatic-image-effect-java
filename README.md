@@ -39,7 +39,7 @@ This project is a Java Maven application built using NetBeans IDE and Swing that
 
 ## How to Use
 
-1. **Start the Application**: Run the Java application in NetBeans.
+1. **Start the Application**: Run the Java application in NetBeans or simply execute the `.jar` file in the **target** folder.
 2. **Adjust Parameters**:
    - Use the **Angle** and **Offset** sliders to control the chromatic aberration effect.
    - Click the **Grayscale** button to convert the image to grayscale using BT.709.
