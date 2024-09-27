@@ -3,11 +3,11 @@
 This project is a Java Maven application built using NetBeans IDE and Swing that applies the **chromatic aberration** effect to images. Users can select multiple image files, adjust parameters like angle and offset, and choose various effects such as grayscale, blending modes, and the type of chromatic aberration (simple or interpolated).
 
 <p align="center">
-  <img src="tests/baboon_Chromatic[Simple].png" width="350" alt="Example 1">
+  <img src="tests/baboon_Chromatic%5BSimple%5D.png" width="350" alt="Example 1">
 </p>
 
 <p align="center">
-  <img src="tests/tulips_Chromatic[Interpolated].png" width="350" alt="Example 2">
+  <img src="tests/tulips_Chromatic%5BInterpolated%5D.png" width="350" alt="Example 2">
 </p>
 
 ## Features
